@@ -40,7 +40,7 @@ if environment == 'development':
     }
 
 elif environment == "production":
-     DEBUG = True
+     DEBUG = False
      ALLOWED_HOSTS = ['kergs-todo.herokuapp.com']
      DATABASES ={}
      DATABASES['default'] = dj_database_url.config()
@@ -123,7 +123,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/lagos'
 
 USE_I18N = True
 
